@@ -3,9 +3,9 @@ import { SpotifyService } from '../../services/spotify.service'
 import { Artist } from '../../models/Artist';
 
 @Component({
-  moduleId: module.id,
+  // moduleId: module.id,
   selector: 'search',
-  templateUrl: 'search.component.html',
+  templateUrl: './search.component.html',
 })
 export class SearchComponent  {
 

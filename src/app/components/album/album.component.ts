@@ -5,9 +5,9 @@ import { Album } from '../../models/Album';
 import { SpotifyService } from '../../services/spotify.service'
 
 @Component({
-  moduleId: module.id,
+  // moduleId: module.id,
   selector: 'album',
-  templateUrl: 'album.component.html',
+  templateUrl: './album.component.html',
 })
 export class AlbumComponent implements OnInit {
 
